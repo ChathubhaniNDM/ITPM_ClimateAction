@@ -1,0 +1,124 @@
+body{
+    background: #f7f7ff;
+    margin-top:50px;
+
+}
+.carda {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff46;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+    width: 400px;
+    height: 510px;
+    margin-left: 20px;
+    border-color: rgb(91, 243, 52);
+    border-style: solid;
+    border-width: 1px;
+
+}
+.me-2 {
+    margin-right: .5rem!important;
+}
+.containerad{
+    background-image: url("https://media.istockphoto.com/id/1159995256/vector/green-spring-nature-background-with-leaves.jpg?s=170667a&w=0&k=20&c=jwUf1Anh5HAvlacG0T_inFaLT5dnjVA2c2MIdooVjQM=");
+    background-size: cover;
+}
+.carda-body{
+    background-color: #ffffff46;
+    margin-right: 50px;
+    border-radius: 1rem;
+    
+}
+.post-editor,
+.stream-post {
+    padding: .95rem;
+    background: #f7f7f9;
+    border: 1px solid #eceeef;
+    border-radius: .25rem;
+    margin-bottom: 2rem
+}
+
+.profile-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+@media (min-width:768px) {
+    .profile-wrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+}
+
+body.menubar-top .profile-wrapper {
+    border: 1px solid #eceeef
+}
+.profimage {
+    height: 200px;
+    width: 200px;
+}
+.lefttext {
+    font-size: medium;
+    color: black;
+    font-weight: 500;
+    margin: 0 auto;
+}
+.cardd {
+    background: #ffffff7a;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    height: 530px;
+    border-top-color: rgb(7, 212, 18);
+    border-right-color: rgb(7, 212, 18);
+    border-left: #d5d9db;
+    border-bottom: #d5d9db;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 60px;
+}
+
+.form-control {
+    width: 500px;
+    height: 30px;
+    font-size: small;
+}
+.btnsave {
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    color: #eceeef;
+    border-radius: 1rem;
+    margin-left: 400px;
+}
+.btnallproj {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(115, 247, 115);
+    font-size: small;
+}
+.btnaddtask {
+    width: 100px;
+    height: 30px;
+    border-color: green;
+    border-style: solid;
+    border-width: 1px;
+    font-size: small;
+    
+}
+

@@ -97,7 +97,6 @@ if(answer){
                 }
                    
                 </tbody>
-            
             </table>
         </section>
     </main>

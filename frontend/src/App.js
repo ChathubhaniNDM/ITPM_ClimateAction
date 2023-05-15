@@ -7,7 +7,6 @@ import Add from './Components/add';
 import AgentTable from './Components/AgentTable';
 import EditProfileAgent from './Components/EditProfileAgent';
 import AgentProfile from './Components/Agent_Profile';
-import AgentProfEdit from './Components/AgentProfEdit';
 import ViewMoreAgent from './Components/ViewMoreAgent';
 import Home from './Components/Home';
 import AdminAgent from './Components/AdminAgent';
@@ -32,7 +31,6 @@ function App() {
           <Route path='atable/aprof/:id' element={<AgentProfile/>} />
           <Route path='/atable' element={<AgentTable/>} />
           <Route path='/atable/update/:id' element={<EditProfileAgent/>} />
-          <Route path='/aprof/update/:id' element={<AgentProfEdit/>} />
           <Route path='/viewmoreagent/:id' element={<ViewMoreAgent/>} />
           <Route path='/' element={<Home/>}/>
           <Route path='/aat' element={<AdminAgent/>}/>
