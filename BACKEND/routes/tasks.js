@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const Task = require("../models/Task");
-let Task = require("../models/Task");
+
 
 router.route("/add").post((req,res)=>{
 
@@ -8,7 +8,7 @@ router.route("/add").post((req,res)=>{
     const tprogramname = req.body.tprogramname;
     const tdistrict = req.body.tdistrict;
     const tcost = req.body.tcost;
-    const tdate = req.body.dob;
+    const tdate = req.body.tdate;
 
     const newTask = new Task({
 

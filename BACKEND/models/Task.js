@@ -20,7 +20,7 @@ const taskSchema = new Schema({
         required:true
     },
     tcost : {
-        type:Number,
+        type:String,
         required:true
     }
 })

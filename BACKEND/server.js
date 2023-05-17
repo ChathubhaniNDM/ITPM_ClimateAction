@@ -25,8 +25,11 @@ connection.once("open", () =>{
 });
 
 const agentRouter = require("./routes/agents.js");
+const taskRouter = require("./routes/tasks.js");
 
 app.use("/agent",agentRouter);
+app.use("/task",taskRouter);
+
 
 app.listen(PORT, () => {
     console.log(`Server is up and running on port number:${PORT}`)
