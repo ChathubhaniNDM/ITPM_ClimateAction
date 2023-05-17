@@ -2,31 +2,28 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const donationSchema = new Schema({
+const donorSchema = new Schema({
 
-    community: {
+    d_name: {
         type : String,
         required: true
     },
-    project_type : {
+    d_address : {
         type : String,
         required : true
     },
-    location : {
-        type : String,
-        required : true
-    },
-    donation_amount : {
+    d_contact : {
         type : Number,
         required : true
-
     },
-    d_date : {
+    d_email : {
         type : String,
         required : true
+
     },
+    
 })
 
-const Donation = mongoose.model("Donation", donationSchema);
+const Donor = mongoose.model("Donor", donorSchema);
 
-module.exports = Donation;
+module.exports = Donor;

@@ -25,7 +25,11 @@ connection.once("open", () =>{
 })
 
 const donationRouter = require("./routes/donations.js");
+const paymentRouter = require("./routes/payments.js");
+const agentRouter = require("./routes/agents.js");
 app.use("/donation",donationRouter);
+app.use("/payment",paymentRouter);
+app.use("/agent",agentRouter);
 
 app.listen(PORT, () => {
     console.log(`Server is up and running on port number:${PORT}`)

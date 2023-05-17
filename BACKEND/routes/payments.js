@@ -1,37 +1,36 @@
 const router = require("express").Router();
-let Donation = require("../models/Donation");
+let Payment = require("../models/Payment");
 
-router.route("/addDonation").post((req,res)=>{
-    const community = req.body.community;
-    const project_type = req.body.project_type;
-    const location = req.body.location;
+router.route("/addPayment").post((req,res)=>{
     const donation_amount = Number(req.body.donation_amount);
-    const d_date = req.body.d_date;
-
-    const newDonation = new Donation({
-        community,
-        project_type,
-        location,
+    const cardNo = Number(req.body.cardNo);
+    const expiry_date = req.body.expiry_date;
+    const cvc = Number(req.body.cvc);
+        
+    const newPayment = new Payment({
         donation_amount,
-        d_date
+        cardNo,
+        expiry_date,
+        cvc
+        
     })
 
-    newDonation.save().then(()=>{
-        res.json("Donation Added Successfully!")
+    newPayment.save().then(()=>{
+        res.json("Payment Successfully!")
     }).catch((err)=>{
         console.log(err);
     })
 })
 
-router.route("/allDonations").get((req,res)=>{
+router.route("/allPayments").get((req,res)=>{
 
-    Donation.find().then((donations)=>{
-        res.json(donations)
+    Payment.find().then((payments)=>{
+        res.json(payments)
     }).catch((err)=>{
         console.log(err)
     })
 })
-
+/*
 router.route("/updateDonation/:did").put(async(req, res)=>{
     let userId = req.params.did;
     const{community, project_type, location, donation_amount, d_date} = req.body;
@@ -65,7 +64,7 @@ router.route("/deleteDonation/:did").delete(async(req, res) =>{
     })
 })
 
-router.route("/getone/:did").get(async(req,res)=>{
+router.route("/getonepayment/:did").get(async(req,res)=>{
     let userId = req.params.did;
     await Donation.findById(userId)
     .then((donation)=>{
@@ -74,5 +73,5 @@ router.route("/getone/:did").get(async(req,res)=>{
         console.log(err.message);
         res.status(500).send({status: "Error with get one donation!", error:err.message});
     })
-})
+})*/
 module.exports = router;
