@@ -3,9 +3,14 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const projectSchema = new Schema({
+    userId: {
+        type: String,
+        required: true,
+        
+      },
     Pname :{
         type : String,
-        required : true
+        
 
     },
 
@@ -17,7 +22,7 @@ const projectSchema = new Schema({
     CName:{
 
         type :String,
-        required : true
+        
 
     },
 
@@ -30,22 +35,22 @@ const projectSchema = new Schema({
 
     SDate:{
 
-        type : Date,
+        type : String,
         required : true
 
     },
 
     EDate:{
 
-        type : Date,
-        required : true 
+        type : String,
+        
 
     },
 
     EAmount:{
 
         type : Number,
-        required : true
+        
 
     },
 

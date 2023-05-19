@@ -1,8 +1,11 @@
 const router = require("express").Router();
 let Project = require("../models/Project");
+const projectCtrl = require("../controllers/projectCtrl")
+const auth = require('../middleware/auth')
 
 router.route("/add").post((req,res)=>{
     
+    const userId = req.body.userId;
     const Pname = req.body.Pname;
     const PType = req.body.PType;
     const CName = req.body.CName;
@@ -14,6 +17,7 @@ router.route("/add").post((req,res)=>{
 
     const newProject = new Project({
         
+        userId,
         Pname,
         PType,
         CName,
@@ -79,14 +83,35 @@ router.route("/delete/:id").delete(async(req,res)=>{
     })
 })
 
-router.route("/get/:id").get(async(req,res)=>{
+// router.route("/get/:id").get(async(req,res)=>{
+//     let projectId = req.params.id;
+//     await Project.findById(projectId).then(()=>{
+//         res.status(200).send({status: "Project fetched", Project})
+//         console.log(Project)
+        
+//     }).catch(()=>{
+//         console.log(err.message);
+//         res.status(500).status({status: "Error with fetched Project",error: err.message});
+//     })
+// })
+
+router.route("/get/:id").get(async (req,res) => {
     let projectId = req.params.id;
-    await Project.findById(projectId).then(()=>{
-        res.status(200).send({status: "user fetched",data: Project})
-    }).catch(()=>{
-        console.log(err.message);
-        res.status(500).status({status: "Error with fetched Project",error: err.message});
+    const user = await Project.findById(projectId)
+    .then((project)=>{
+        res.status(200).send({staus: "user fetched",project})
+    }).catch((err) =>{
+        console.log(err);
+        res.status(500).send({staus: "Error with get user",error: err.mesege});
     })
 })
+
+
+router.post('/create',auth, projectCtrl.createProject)
+router.get('/getProjects/:userId',auth, projectCtrl.getProjects)
+//router.put('/projectsUpdate/:projectId', projectCtrl.updateProjects)
+// router.delete('/projectsdelet/:userId/:projectId',auth, projectCtrl.deleteProject)
+//router.get('/getone/:projectId', projectCtrl.getOneProjects)
+
 module.exports = router;
 
