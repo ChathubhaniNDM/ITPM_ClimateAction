@@ -1,0 +1,65 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .table {
+    width: 130%;
+    border-collapse: collapse;
+    height: 500px;
+    background-color: #f2f2f27c;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .addpro {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .btnnewpr {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btnnewpr:hover {
+    background-color: #0069d9;
+  }
+  
+  .pro {
+    color: #f00;
+  }
+  
+  .imgn {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .table {
+      width: 100%;
+      overflow-x: auto;
+    }
+  }
+
+  .btn-generate{
+    margin-top: 550px;
+    width: 200px;
+  }
+  

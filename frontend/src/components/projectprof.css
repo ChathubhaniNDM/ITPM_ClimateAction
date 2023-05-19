@@ -1,0 +1,157 @@
+.panel1 {
+    box-shadow: none;
+  }
+  .panel1-heading {
+    border-bottom: 0;
+  }
+  .panel1-title {
+    font-size: 17px;
+  }
+  .panel1-title > small {
+    font-size: .75em;
+    color: #999999;
+  }
+  .panel1-body1 *:first-child {
+    margin-top: 0;
+  }
+  .panel1-footer {
+    border-top: 0;
+  }
+  
+  .panel1-default > .panel-heading {
+      color: #333333;
+      background-color: transparent;
+      border-color: rgba(0, 0, 0, 0.07);
+  }
+  
+  form label {
+      color: #999999;
+      font-weight: 400;
+  }
+  
+  .form-horizontal .form-group {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  @media (min-width: 768px) {
+    .form-horizontal .control-label {
+      text-align: right;
+      margin-bottom: 0;
+      padding-top: 7px;
+    }
+  }
+  
+  .profile1__contact-info-icon {
+      float: left;
+      font-size: 18px;
+      color: #999999;
+  }
+  .profile1__contact-info-body {
+      overflow: hidden;
+      padding-left: 20px;
+      color: #999999;
+  }
+  .profile1-avatar1 {
+    width: 150px;
+    position: relative;
+    margin: 0px auto;
+    border-radius: 50%;
+    border: 4px solid #f3f3f3;
+    margin-left: -480px;
+    height: 150px;
+    border-color: green;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    
+  }
+  .panel1-body1{
+    border: rgb(64, 231, 64);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    width: 1000px;
+    margin-left: 160px;
+    height: 300px;
+    background-color: #ccf8d3b4;
+  }
+  .comname {
+    margin-left: -10px;
+    margin-top: -90px;
+    font-size: 40px;
+    padding-bottom: 110px;  
+    color: green;
+    margin-bottom: -30px;
+
+}
+.textin {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.texttitle {
+    margin-left: 20px;
+    padding-top: 28px;
+    
+}
+body {
+    background-image: url("https://img.freepik.com/premium-photo/tree-growing-human-hand-with-planet-human-hand-world-earth-day-environmental-conservation-concept-elements-this-image-are-decorated-by-nasa_104677-886.jpg?w=2000");
+    background-size: cover;
+
+}
+.topicpr {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.btneditp {
+    font-size: medium;
+    width: 110px;
+    height: 35px;
+    border-radius: 15px;
+    border-color: green;
+    border-style: solid;
+    border-width: 3px;
+    color: green;
+    font-weight: bolder;
+    padding-top: 2px;
+}
+.editbtnp {
+    margin-left: 720px;
+    margin-top: -40px; 
+}
+.delbtnp {
+    margin-left: 850px;
+    margin-top: -35px;
+}
+.btndelp {
+    font-size: medium;
+    width: 110px;
+    height: 35px;
+    border-radius: 15px;
+    border-color: green;
+    border-style: solid;
+    border-width: 3px; 
+    color: green;
+    font-weight: bold;
+    padding-top: 2px;
+}
+.addpro {
+    margin-left: 970px;
+    margin-bottom: 10px;
+}
+.btnnewpr {
+    font-size: medium;
+    width: 170px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: rgb(1, 2, 1);
+    border-style: solid;
+    border-width: 3px; 
+    color: rgb(3, 7, 3);
+    font-weight: bold;
+    padding-top: 2px;
+    background-color: rgba(84, 245, 124, 0.904);
+}
+.pro {
+    color: rgba(84, 245, 124, 0.904);
+}
