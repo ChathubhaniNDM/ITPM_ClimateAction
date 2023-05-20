@@ -1,0 +1,30 @@
+.card{
+ background-color: rgb(138, 174, 83);
+ width: 30%;
+ height: 30%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: auto;
+ margin-bottom: auto;
+ text-align: justify;
+ font-size: 6mm;
+ border-radius: 10px;
+ padding-right: 50px;
+ padding-left: 50px;
+ 
+ .donationtitle{
+  text-align: center;
+  font-size: 8mm;
+ }
+ 
+
+}
+.container{
+ margin-left: auto;
+ margin-right: auto;
+ height: auto;
+ width: auto;
+ text-align: center;
+ border: none;
+ 
+}

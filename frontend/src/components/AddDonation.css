@@ -1,0 +1,63 @@
+.container01{
+ margin-top: auto;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: auto;
+ height: auto;
+ min-height: 100px;
+ max-height: 500px;
+ width: auto;
+ max-width: 600px;
+ border-style: solid;
+ border-radius: 10px;
+ border-color: black;
+ 
+ .mb-3{
+  color: black;
+  
+  position: relative;
+  margin-top: 5%;
+  text-align: center;
+  .add_donat{
+  background-color: rgb(57, 221, 24);
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 50%;
+  margin-bottom: 50px;
+ 
+  }
+  .form-control01{
+   margin-left: 40px;
+   border-radius: 5px;
+   width: 200px;
+   height: 25px;
+   align-items: center;
+   
+  }
+  
+  .avatar5{
+  width:200px;
+  height:200px;
+  }
+  
+
+
+ }
+ 
+
+
+
+
+
+
+ 
+}
+
+
+
+
+.placeholder{
+ margin-right: 30%;
+}

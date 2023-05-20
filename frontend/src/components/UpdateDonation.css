@@ -1,0 +1,85 @@
+.container-update{
+ width: 650px;
+ height: 650px;
+ margin-top: 50px;
+ margin-left: 430px;
+ border-color: black;
+ background-color: rgb(221, 219, 219); 
+ border-radius: 15px;
+ text-align: center;
+ padding: 30px;
+}
+
+.mb-3{
+ height: 90px;
+ width: 500px;
+}
+.form-label{
+ 
+ padding: 35px;
+ font-size: 5mm;
+ font-weight: 700;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.form-control1{
+ margin-left: 25px;
+ height: 35px;
+ width: 300px;
+ border-radius: 10px;
+ background-color: rgb(204, 252, 133);
+ text-align: center;
+ font-size: 4mm;
+ font-weight: 600;
+}
+.form-control2{
+ margin-left: 61px;
+ height: 35px;
+ width: 300px;
+ border-radius: 10px;
+ background-color: rgb(204, 252, 133);
+ text-align: center;
+ font-size: 4mm;
+ font-weight: 600;
+}
+.form-control3{
+ margin-left: 49px;
+ height: 35px;
+ width: 300px;
+ border-radius: 10px;
+ background-color: rgb(204, 252, 133);
+ text-align: center;
+ font-size: 4mm;
+ font-weight: 600;
+}
+.form-control4{
+ margin-left: 55px;
+ height: 35px;
+ width: 300px;
+ border-radius: 10px;
+ background-color: rgb(204, 252, 133);
+ text-align: center;
+ font-size: 4mm;
+ font-weight: 600;
+}
+.form-control5{
+ margin-left: 80px;
+ height: 35px;
+ width: 300px;
+ border-radius: 10px;
+ background-color: rgb(204, 252, 133);
+ text-align: center;
+ font-size: 4mm;
+ font-weight: 600;
+
+}
+.update-donation{
+ width: 460px;
+ height: 50px;
+ background-color: rgb(11, 49, 11);
+ border-radius: 10px;
+ color: white;
+ font-size: 8mm;
+ margin-left: 70px;
+ font-weight: 800;
+}
