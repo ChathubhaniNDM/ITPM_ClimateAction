@@ -16,9 +16,7 @@ function ProjectsTable() {
       });
   }, []);
 
-  const generateReport = () => {
-    console.log("Generating report...");
-  };
+
 
   return (
     <section>
@@ -49,9 +47,6 @@ function ProjectsTable() {
             </tbody>
           </table>
         </div>
-        <button className="btn-generate" onClick={generateReport}>
-          Generate Report
-        </button>
       </div>
     </section>
   );

@@ -11,6 +11,7 @@ import ProjectReg from './components/ProjectReg';
 import ProjectProfile from './components/ProjectProfile';
 import EditProfileDetails from './components/editProjectDetails';
 import ProjectsTable from './components/projectTable';
+import ProjectReport from './components/genrateProjectReport';
 
 
 
@@ -34,6 +35,8 @@ function App() {
         <Route path='/project/update/:id'  element={<EditProfileDetails/>} />
           <Route path="*" element={<Navigate to="/log" replace />} />
           <Route path='/table'  element={<ProjectsTable/>} />
+          <Route path='/pdf'  element={<ProjectReport/>} />
+        
       </Routes>
       
       
