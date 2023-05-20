@@ -39,45 +39,46 @@ export default function AddDonation(){
   }
   
  return(
+   
 
-<div className="container01">
-  <center><h1>Please Give Your Donations</h1></center>
+<div className="container-add-form">
+  <center><h2 style={{fontSize: '11mm'}}>Please Give Your Donations</h2></center>
   <br></br>
   
   
  <form onSubmit={sendData}>
   
  <div className="mb-3">
-    <label for="community">Community</label>
-    <input type="text" className="form-control01" id="community" placeholder="Enter Community" required
+    <label for="community" className='form-label-add'>Community</label>
+    <input type="text" className="form-control6" id="community" placeholder="Enter Community" required
     onChange={(e)=>{
       setCommunity(e.target.value);
     }}/>
   </div>
   <div className="mb-3">
-    <label for="project_type">Project</label>
-    <input type="text" className="form-control01" id="project_type" placeholder="Enter Project" required
+    <label for="project_type" className='form-label-add'>Project</label>
+    <input type="text" className="form-control7" id="project_type" placeholder="Enter Project" required
     onChange={(e)=>{
       setProject(e.target.value);
     }}/>
   </div>
   <div className="mb-3">
-    <label for="location">Location</label>
-    <input type="text" className="form-control" id="location" placeholder="Enter location" required
+    <label for="location" className='form-label-add'>Location</label>
+    <input type="text" className="form-control8" id="location" placeholder="Enter location" required
     onChange={(e)=>{
       setLocation(e.target.value);
     }}/>
   </div>
   <div className="mb-3">
-    <label for="donation_amount">Amount</label>
-    <input type="float" className="form-control" id="donation_amount" placeholder="10000.00LKR" required
+    <label for="donation_amount" className='form-label-add'>Amount</label>
+    <input type="float" className="form-control9" id="donation_amount" placeholder="10000.00LKR" required
     onChange={(e)=>{
       setAmount(e.target.value);
     }}/>
   </div>
   <div className="mb-3">
-    <label for="d_date">Date</label>
-    <input type="Date" className="form-control" id="d_date" placeholder="12/05/23" required
+    <label for="d_date" className='form-label-add'>Date</label>
+    <input type="Date" className="form-control10" id="d_date" placeholder="12/05/23" required
     onChange={(e)=>{
       setDate(e.target.value);
     }}/>
@@ -91,6 +92,6 @@ export default function AddDonation(){
   </div>
 </form>
 </div>
- 
+
 ) 
 }

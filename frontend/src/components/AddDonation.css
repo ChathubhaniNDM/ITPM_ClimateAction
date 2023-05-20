@@ -1,63 +1,91 @@
-.container01{
- margin-top: auto;
- margin-left: auto;
- margin-right: auto;
- margin-bottom: auto;
- height: auto;
- min-height: 100px;
- max-height: 500px;
- width: auto;
- max-width: 600px;
- border-style: solid;
- border-radius: 10px;
- border-color: black;
- 
- .mb-3{
-  color: black;
-  
-  position: relative;
-  margin-top: 5%;
-  text-align: center;
-  .add_donat{
-  background-color: rgb(57, 221, 24);
-  height: 30px;
-  width: 100px;
-  border: none;
-  border-radius: 10px;
-  margin-left: 50%;
-  margin-bottom: 50px;
- 
-  }
-  .form-control01{
-   margin-left: 40px;
-   border-radius: 5px;
-   width: 200px;
-   height: 25px;
-   align-items: center;
-   
-  }
-  
-  .avatar5{
-  width:200px;
-  height:200px;
-  }
-  
-
-
- }
- 
-
-
-
-
-
-
- 
-}
-
-
-
-
 .placeholder{
  margin-right: 30%;
+}
+
+.container-add-form{
+ width: 650px;
+ height: 700px;
+ margin-top: 50px;
+ margin-left: 550px;
+ border-color: black;
+ background-color: rgb(221, 219, 219); 
+ border-radius: 15px;
+ text-align: center;
+ padding: 30px;
+}
+.h2{
+ margin-left: 450px;
+}
+.mb-3{
+ height: 90px;
+ width: 500px;
+}
+.form-label-add{
+ 
+ padding: 35px;
+ font-size: 5mm;
+ font-weight: 700;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.form-control6{
+ margin-left: 25px;
+ height: 35px;
+ width: 300px;
+ border-radius: 10px;
+ background-color: rgb(204, 252, 133);
+ text-align: center;
+ font-size: 4mm;
+ font-weight: 600;
+}
+.form-control7{
+ margin-left: 61px;
+ height: 35px;
+ width: 300px;
+ border-radius: 10px;
+ background-color: rgb(204, 252, 133);
+ text-align: center;
+ font-size: 4mm;
+ font-weight: 600;
+}
+.form-control8{
+ margin-left: 49px;
+ height: 35px;
+ width: 300px;
+ border-radius: 10px;
+ background-color: rgb(204, 252, 133);
+ text-align: center;
+ font-size: 4mm;
+ font-weight: 600;
+}
+.form-control9{
+ margin-left: 55px;
+ height: 35px;
+ width: 300px;
+ border-radius: 10px;
+ background-color: rgb(204, 252, 133);
+ text-align: center;
+ font-size: 4mm;
+ font-weight: 600;
+}
+.form-control10{
+ margin-left: 80px;
+ height: 35px;
+ width: 300px;
+ border-radius: 10px;
+ background-color: rgb(204, 252, 133);
+ text-align: center;
+ font-size: 4mm;
+ font-weight: 600;
+
+}
+.add_donat{
+ width: 460px;
+ height: 50px;
+ background-color: rgb(11, 49, 11);
+ border-radius: 10px;
+ color: white;
+ font-size: 8mm;
+ margin-left: 70px;
+ font-weight: 800;
 }

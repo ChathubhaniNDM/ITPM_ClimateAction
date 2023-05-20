@@ -1,7 +1,7 @@
-.card{
+.card-donation{
  background-color: rgb(138, 174, 83);
- width: 30%;
- height: 30%;
+ width: 500px;
+ height: 220px;
  margin-left: auto;
  margin-right: auto;
  margin-top: auto;
@@ -15,16 +15,25 @@
  .donationtitle{
   text-align: center;
   font-size: 8mm;
+  padding-top: 20px;
  }
  
 
 }
-.container{
+.container-donationlist{
  margin-left: auto;
  margin-right: auto;
  height: auto;
  width: auto;
  text-align: center;
  border: none;
+ margin-top: 50px;
  
+}
+
+.alldonationtitle{
+ font-size: 9mm;
+ margin-top: 30px;
+ 
+
 }

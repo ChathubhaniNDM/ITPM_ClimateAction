@@ -2,7 +2,7 @@ import './DonationTable.css';
 import './donationreport.css';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
@@ -45,7 +45,6 @@ function DonationReport() {
       
       < div className="container-report">
                 
-     
       <div ref={docToPrint}>  
       <h1 className='title' style={{ textAlign: 'center' , color: 'black', fontSize: '13' }}>Saved donations here....</h1>
       <br></br> 
@@ -88,9 +87,7 @@ function DonationReport() {
      </div>
      
   )
-
   
 }
-
 
 export default DonationReport;

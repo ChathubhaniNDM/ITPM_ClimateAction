@@ -17,17 +17,28 @@
     padding: 30px 10px;
 }*/
 
-.card {
+.card{
     background-color: rgb(72, 236, 135);
-    max-width: 700px;
+    width: 700px;
     margin: auto;
     color: black;
-    border-radius: 20 px;
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-top: -150px;
+    margin-bottom: 400px;
+   
 }
-
+.container p-0{
+    width: 700px;
+    height: 800px;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    padding-top: 300px;
+    
+}
 .p {
     margin:5px;
-    margin-top: 50%;
+    margin-top: 30%;
     
 }
 
@@ -36,7 +47,8 @@
     font-weight: 800;
     margin-top: 50%;
     text-align: center;
-   
+    padding-top: 30px;
+    
 }
 
 .btn.btn-primary {
@@ -73,7 +85,7 @@
     background-color: #e2e8e3;
     border: 2px solid transparent;
     height: 40px;
-    padding-left: 20px;
+    padding-left: 120px;
     vertical-align: middle;
     border-radius: 5px;
 }
@@ -103,9 +115,19 @@
     background-color: gray;
     font-style: normal;
     margin-bottom: 8px;
+    margin-left: 400px;
     
 }
 
 body{
     background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F776570.png&tbnid=SaEE5BWMejUj_M&vet=12ahUKEwjo7dTik_3-AhUqjtgFHUeLDVYQMyhLegQIARB4..i&imgrefurl=https%3A%2F%2Fwallpaperaccess.com%2Fenvironmental&docid=CR6lxHI1N_boGM&w=1600&h=1200&q=background%20image%20for%20environmental%20sites&ved=2ahUKEwjo7dTik_3-AhUqjtgFHUeLDVYQMyhLegQIARB4");
+}
+.d-flex flex-column.text mb-1{
+    margin-left: 100px;
+}
+.col-12{
+    margin-left: 100px;
+}
+.col-6{
+    margin-left: 100px;
 }

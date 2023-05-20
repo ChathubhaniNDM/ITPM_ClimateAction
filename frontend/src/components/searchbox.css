@@ -12,9 +12,10 @@ body{
 	left: 50%;
 	transform: translate(-50%,-50%);
 	background:#344933;
-	height: 20px;
+	height: 30px;
 	border-radius: 20px;
 	padding: 5px;
+	margin-top: 10px;
 }
 
 .search-box:hover .search-txt{
@@ -46,8 +47,8 @@ body{
 	background: none;
 	float: left;
 	padding: 0;
-	color:#fff;
-	font-size: 15px;
+	color: white;
+	font-size: 4mm;
 	line-height: 20px;
 	width: 0;
 	transition: width 400ms;

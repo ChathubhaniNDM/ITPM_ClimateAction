@@ -16,13 +16,13 @@ function App() {
       <Routes>
         
         
-        <Route path='/addDonations' element={<AddDonation/>}/>
+        <Route path='/addDonation' element={<AddDonation/>}/>
         <Route path='/donation-table' element={<DonationTable/>}/>
         <Route path='/allDonations' element={<AllDonations/>}/>
         <Route path='/donation-table/editDonations/:id' element={<UpdateDonation/>}/>
         <Route path='/donation-table/addPayment/:id' element={<PaymentForm/>}/>
         <Route path = '/report' element = {<DonationReport/>}/>
-        <Route path = '/home' exact element= {<Home/>}/>
+        <Route path = '/' exact element= {<Home/>}/>
       </Routes>
       
     </div>
