@@ -1,0 +1,20 @@
+.btnrepo {
+    background-color: green;
+    color: aliceblue;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 1180px;
+    font-size: 15px;
+}
+.tablet {
+    border: 2px;
+    border-style: solid;
+}
+.trt {
+    height: 40px;
+    font-size: 12px;
+}
+.tht {
+    font-size: 13px;
+}

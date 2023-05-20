@@ -1,6 +1,5 @@
 
 .bodyt {
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +10,6 @@ main.table {
     width: 82vw;
     height: 90vh;
     background-color: #fff5;
-    
     backdrop-filter: blur(7px);
     box-shadow: 0 .4rem .8rem #0005;
     border-radius: .8rem;
@@ -24,7 +22,7 @@ main.table {
     height: 10%;
     background-color: #fff4;
     padding: .8rem 1rem;
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -335,3 +333,4 @@ thead th.active,tbody td.active {
     width: 20px;
     height: 20px;
 }
+

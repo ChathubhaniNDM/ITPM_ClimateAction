@@ -109,15 +109,32 @@ function sendData(e){
    }
 
     return(
-      <div class="containerpr">
+<div class="containerpr">
 
-         <div class="header8">
-            <div class="header8-right1">
-                <a class="active" href="/">Home</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
+    {/* Header Part */}
+     <section id="header1">
+        <div class="header2 containerl">
+            <div class="nav-bar">
+                <div class="brand9">
+                    <img src="/image/planet.png" alt="img"/>
+                </div>
+                <div className="nl">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>     
+                        <a className="tab" href="/" data-after="Home">Home</a>
+                        <a className="tab" href="#services" data-after="Service">Services</a>
+                        <a className="tab" href="#projects" data-after="Projects">Projects</a>
+                        <a className="tab" href="#about" data-after="About">About</a>
+                        <a className="tab" href="#contact" data-after="Contact">Contact</a>
+                        <a className="tab" href="/aat" data-after="Contact">Our Team</a>
+                    </div> 
             </div>
         </div>
+
+    </section>
+
+{/* End Header Part */}
 
         <div class="main-body">
         <p className="proftopic"><span className="my">M</span>y <span className="my">P</span>rofile</p>
