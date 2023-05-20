@@ -149,8 +149,8 @@ function sendData(e){
 									<h3>{fullname}</h3>
 									<br/>
                                     <br/>
-									<button class="btnallproj">All Projects</button>
-									<button class="btnaddtask">Add Task</button>
+									<button class="btnallproj"><a class="l" href='/alltask'>All Projects</a></button>
+									<button class="btnaddtask"><a class="l" href='/addtask'>Add Task</a></button>
 								</div>
 							</div>
 							<br/>
@@ -159,7 +159,7 @@ function sendData(e){
 							<ul class="list-group list-group-flush">
 
 								<li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-									<a class="lefttext" href=''>Added Projects Details</a>
+									<a class="lefttext" href='/alltask'>Added Projects Details</a>
 								</li>
 
 								<li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">

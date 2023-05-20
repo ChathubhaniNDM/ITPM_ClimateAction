@@ -1,6 +1,7 @@
 import React,{ useState } from "react";
 import axios from "axios";
 import './add.css';
+import { Navigate } from "react-router-dom";
 
 
 function Add(){
@@ -33,7 +34,7 @@ function Add(){
         }
         axios.post("http://localhost:8070/Agent/add", newAgent).then((res)=>{
             alert("Agent Added")
-
+            Navigate("/")
        
         }).catch((err)=>{
             alert(err)

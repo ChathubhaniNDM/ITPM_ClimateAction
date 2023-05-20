@@ -10,6 +10,7 @@ import AdminAgent from './Components/AdminAgent';
 import AddTask from './Components/AddTask';
 import TaskTable from './Components/TaskTable';
 import AllTask from './Components/AllTask';
+import AllAgents from './Components/AllAgent';
 
 
 
@@ -27,6 +28,7 @@ function App() {
           
           <Route path='/addtask' element={<AddTask/>} />
           <Route path='/alltask' element={<AllTask/>} />
+          <Route path='/allagent' element={<AllAgents/>} />
           <Route path='/a' element={<Add/>} />
           <Route path='atable/aprof/:id' element={<AgentProfile/>} />
           <Route path='/ttable' element={<TaskTable/>} />
@@ -35,15 +37,7 @@ function App() {
           <Route path='/aat/update/:id' element={<EditProfileAgent/>} />
           <Route path='aat/aprof/:id' element={<AgentProfile/>} />
 
-
-
-
-
-
-
- 
-
-          
+   
   
         </Routes>
 

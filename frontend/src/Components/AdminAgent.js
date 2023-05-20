@@ -8,6 +8,7 @@ import {Link} from "react-router-dom"
 function AdminAgent() {
 
     const [agents, setAgents] = useState([]);
+    
 
     useEffect(() => {
         function getAgents() {
@@ -58,8 +59,8 @@ if(answer){
                         <a className="tab" href="#services" data-after="Service">Services</a>
                         <a className="tab" href="#projects" data-after="Projects">Projects</a>
                         <a className="tab" href="#about" data-after="About">About</a>
-                        <a className="tab" href="#contact" data-after="Contact">Contact</a>
-                        <a className="tab" href="/aat" data-after="Contact">Our Team</a>
+                        <a className="tab" href="#contact" data-after="Our Team">Contact</a>
+                        <a className="tab" href="/allagent" data-after="Contact">Our Team</a>
                     </div> 
             </div>
         </div>

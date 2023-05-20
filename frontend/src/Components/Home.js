@@ -51,7 +51,8 @@ function Home() {
             <li><a href="#projects" data-after="Projects">Projects</a></li>
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
-            <li><a href="#ourteam" data-after="Contact">Our Team</a></li>
+            <li><a href="#ourteam" data-after="OurTeam">Our Team</a></li>
+            <li><a href="/aat" data-after="Admin">Admin</a></li>
           </ul>
         </div>
       </div>
@@ -244,6 +245,7 @@ function Home() {
       </div>
       <br/><br/><br/>
         <h2 className="section-subtitle"><span>A</span>gents</h2>
+        
       <div class="ourteam-bottom">
 	      {agents && agents.map(agent => (
         <div class="ourteam-item">

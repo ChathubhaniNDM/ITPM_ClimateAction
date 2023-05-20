@@ -152,15 +152,15 @@ function sendData(e){
 									    <h3>{fullname}</h3>
 									    <br/>
                       <br/>
-									    <button class="btnallproj">All Projects</button>
-									    <button class="btnaddtask">Add Task</button>
+									    <button class="btnallproj"><a class="l" href='/alltask'>All Projects</a></button>
+									    <button class="btnaddtask"><a class="l" href='/addtask'>Add Task</a></button>
 								    </div>
 							    </div>
 							    <br/><br/><br/>
 
 							    <ul class="list-group list-group-flush">
 								    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-									    <a class="lefttext" href=''>Added Projects Details</a>
+									    <a class="lefttext" href='/alltask'>Added Projects Details</a>
 								    </li>
 
 								    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
@@ -176,7 +176,7 @@ function sendData(e){
 				    </div>
 
             <div class="cardb">
-              <div class="cardf" >
+              <div class="cardd" >
                   <br/><br/>
                   <div class="row">
                         <div class="col-sm-3">
@@ -278,8 +278,8 @@ function sendData(e){
                       <div class="col-sm-12">
                         <Link to={"http://localhost:3000/atable/update/id"}><button  className='btnedit'><h4>Edit Profile</h4></button></Link><br/>
                         <br/>
-                        <button  className='btnnew'><h4>New Work/Programme<span className="k">..</span><img className="imgn" src="/image/add.png"/></h4></button> 
-                        <button  className='btnnew'><h4>All Programmes<span className="k">..</span><img className="imgn" src="/image/all.png"/></h4></button>    
+                        <button  className='btnnew'><a class="l" href='/addtask'><h4>New Work/Programme<span className="k">..</span><img className="imgn" src="/image/add.png"/></h4></a></button> 
+                        <button  className='btnnew'><a class="l" href='/alltask'><h4>All Programmes<span className="k">..</span><img className="imgn" src="/image/all.png"/></h4></a></button>    
                       </div>
                     </div>
               </div>
