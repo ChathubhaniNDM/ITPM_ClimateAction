@@ -1,0 +1,109 @@
+/* .demo{ background-color: #ffd8d8; }
+.needs-validation{
+    background-color: #ffffff9d;
+    font-family: 'Blinker', sans-serif;
+    
+    padding: 20px 10px 20px;
+    border: 5px solid #168f0d;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: 20px;
+    width: 600px;
+    font-weight: bold;
+    color: #000;
+    align-content: center;
+}
+
+.needs-validation .form-group{ margin: 0 0 20px; }
+.needs-validation label{
+    color: #555;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0;
+    display: block;
+}
+.needs-validation .form-control{
+    color: #555;
+    font-size: 16px;
+    height: 35px;
+    padding: 10px 8px 10px 5px;
+    border-radius: 5px;
+}
+.form-control::placeholder{ color: rgba(0,0,0,0.2); }
+.needs-validation .form-control:focus{
+    box-shadow: none;
+    border: 1px solid #bb1616;
+}
+.needs-validation .btn{
+    color: #fff;
+    background-color: #727685;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 60%;
+    padding: 7px 10px;
+    margin: 0 auto 15px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s;
+}
+.needs-validation .btn:hover{ color: #555; }
+.needs-validation .btn:after{
+    content: '';
+    background-color: #fff;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 25px;
+    transform: translateY(-100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: all 0.2s;
+}
+.needs-validation .btn:hover:after{ transform: translateY(0) scaleX(0.85); }
+.needs-validation .forgot{
+    color: #555;
+    font-size: 14px;
+}
+.needs-validation .forgot:hover{
+    color: #d63031;
+    text-decoration: none;
+}
+.section-1{
+    background-image: url("https://associatedlp.com/sites/default/files/styles/news_detail_image/public/news/2022/04/Untitled%20design.png?itok=l4SlCv0i");
+    height: 1000px;
+    width: 1350px;
+
+}
+.form-container .title{
+    color: #0e4202;
+    background: linear-gradient(#57ec6b9d,#0c6609c0);
+    font-size: 23px;
+    font-weight: 480;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    padding: 5px 5px;
+    position: relative;
+    width: 465px;
+    margin-left: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.form-container{
+    margin-left: 50px;
+}
+
+.des{
+  height: 80px;
+  width: 465px;
+  text-align: left;
+
+}
+ */
