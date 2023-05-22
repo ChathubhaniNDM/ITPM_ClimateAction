@@ -34,7 +34,7 @@ function Add(){
         }
         axios.post("http://localhost:8070/Agent/add", newAgent).then((res)=>{
             alert("Agent Added")
-            Navigate("/")
+
        
         }).catch((err)=>{
             alert(err)
