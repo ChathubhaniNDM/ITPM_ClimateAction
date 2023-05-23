@@ -43,7 +43,7 @@ function AllTask() {
     </div>
     </section>
 
-    {/* End Header Part */}
+   
         <div class="containertask">
             
         <div class="rowtask">
@@ -78,7 +78,7 @@ function AllTask() {
           </div>
         </div>
 
-    {/* Footer Part */}
+  
     <section id="footer">
         <div class="footer container">
             <div class="brand">
